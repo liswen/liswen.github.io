@@ -1,6 +1,6 @@
 
 html,body{width:100%;height:100%;margin:0px;}
-#leftMain{float:left;width:30%;height:100%;background:url('../images/left_background.jpg') no-repeat;background-size:cover;
+#leftMain{float:left;width:30%;height:100%;background:url('../images/left_Background.jpg') no-repeat;background-size:cover;
           background-position-x: 50%;z-index: 1;position: relative}
 #bgcover{width: 100%;height:100%;background:rgba(62, 65, 78, 0.45);z-index:1;float: left;position: absolute}
 #bgImg{width: 100%;height:100%;background:url("../images/map.png");opacity:0.08;background-size:cover;position: absolute}
