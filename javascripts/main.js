@@ -1,4 +1,4 @@
-$(document).ready(function () {
+window.onload=function () {
 
        $("#mainLeft>img").animate({
            "top":"-400px"
