@@ -19,5 +19,5 @@ $(document).ready(function(){
 
     }
 
-    setTimeout(an,1500)
+    setTimeout(an,2000)
 })
