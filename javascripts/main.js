@@ -2,7 +2,7 @@ $(document).ready(function(){
     function an() {
 
         $("#mainLeft>img").animate({
-            "top": "-400px"
+            "top": "-55%"
         }, 2000)
         $("#top").animate({
             "opacity": "0.9"
