@@ -1,10 +1,10 @@
 $(document).ready(function(){
         //菜单动画
-        (function($){
-            $("#top").animate({
-                "opacity": "0.9"}, 2000)
 
-        }(jQuery));
+        $("#bgColor").animate({
+            opacity:0
+        },1000)
+
         //创建效果div
         var obj;
         (function ($) {
@@ -87,11 +87,11 @@ $(document).ready(function(){
         })
         var over={zIndex: 99999, height: "400px", width: "400px",top: "125px"}
         $("#main").on("mouseover",".page",function () {
-            $(this).animate(over,"fast")
+            $(this).stop().animate(over,"fast")
         })
           //p0恢复
         $("#main").on("mouseleave",".p0",function () {
-            $(this).animate({
+            $(this).stop().animate({
                 width:"200px",
                 height:"200px",
                 left:"590px",
@@ -103,7 +103,7 @@ $(document).ready(function(){
         })
           //p1恢复
         $("#main").on("mouseleave",".p1",function () {
-            $(this).animate({
+            $(this).stop().animate({
                 width:"100px",
                 height:"100px",
                 left:"440px",
@@ -113,7 +113,7 @@ $(document).ready(function(){
         })
           //p2恢复
         $("#main").on("mouseleave",".p2",function () {
-            $(this).animate({
+            $(this).stop().animate({
                 width:"150px",
                 height:"150px",
                 left:"425px",
@@ -123,7 +123,7 @@ $(document).ready(function(){
         })
           //p3恢复
         $("#main").on("mouseleave",".p3",function () {
-            $(this).animate({
+            $(this).stop().animate({
                 width:"50px",
                 height:"50px",
                 left:"818px",
@@ -133,7 +133,7 @@ $(document).ready(function(){
         })
            //p4恢复
         $("#main").on("mouseleave",".p4",function () {
-            $(this).animate({
+            $(this).stop().animate({
                 width:"170px",
                 height:"170px",
                 left:"830px",
@@ -142,7 +142,7 @@ $(document).ready(function(){
             },"fast")
         })
         $("#main").on("mouseleave",".p5",function () {
-            $(this).animate({
+            $(this).stop().animate({
                 width:"150px",
                 height:"150px",
                 left:"650px",
