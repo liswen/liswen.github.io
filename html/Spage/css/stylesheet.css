@@ -1,0 +1,14 @@
+.main{background: #ee9300;height:615px;background: url("../images/bg1.png"); background-size: cover}
+.leaves{background: url("../images/city2.jpg");height: 400px;padding: 0 !important;border: 5px #383838 solid;background-size: cover;box-shadow: inset 0px 0px 0px 3px white;overflow:hidden}
+.move{width:10px;height:300px;background:#ccc;position: absolute;right:10px;top:40px;border-radius: 10px;}
+.moveBlock{width:10px;height:20px;background:white;border-radius: 10px;position: absolute;top:0px;}
+.leave{background: white;height:39px;border-bottom: 1px solid #999;transform:rotateX(0deg);transition-property: transform;  transition: 1s;box-shadow:#ccc 0px 12px 30px -5px inset;margin-left: 0px;margin-right: 0px;line-height: 39px;color:#80110f;}
+.leave>p{text-indent: 2em;opacity: 0;}
+/*拉链按钮*/
+.aaa{position: absolute;left:85%;top:0;}
+.oLine{height: 380px;width:1px;border-radius:40px;border: dashed 1px  black;border-bottom:100px solid darkred }
+.oBtn1{width: 15px; height:15px;background: #a81501;position: absolute;bottom: 0;left:28%;border-radius: 15px;}
+.bgSun{border: 5px solid #3b3838;box-shadow: 5px 1px 5px #999;position: absolute;right:-7%; top:50px;padding: 0!important;}
+.sun{width: 100px;}
+
+
