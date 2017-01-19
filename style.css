@@ -6,13 +6,39 @@ html,body{
 }
 body{
     background-color:#000000;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 img{
     width: 100%;
     opacity: 0.3;
 }
-#mediaplayer{
+.tvBlock{
     position: absolute;
-    top:100px;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.tvBlock>div{
+    width: 100%;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+}
+.tv div{
+    font-size: 15px!important;
+}
+button{
+    color: white;
+    font-size: 14px;
+    background: none;
+    border: 1px solid #fff;
+    margin: 0 0.2rem;
 }
