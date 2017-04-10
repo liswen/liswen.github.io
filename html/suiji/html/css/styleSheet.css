@@ -1,5 +1,0 @@
-#main{width:100%;height:100%;background:radial-gradient(rgb(0,194,212),rgb(0,83,98));position: absolute;}
-#topBgColor{width:100%;height:100%;background: white;opacity: 1;position: absolute;z-index: -1;}
-#textMain{width:65%;height:70%;border-radius: 50px;background:#ccc;position: absolute;left:18%;top:7%;box-shadow: 20px -20px 240px 0px #fff inset ;border-top: 2px solid #fff; border-right: 2px solid #fff;z-index: 1}
-#nav{width: 200px;height:120px;background: url("../images/nav.png") ;background-size:cover;position: absolute;
- left: 300px;top:600px;z-index: 2}
