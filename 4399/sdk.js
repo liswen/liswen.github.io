@@ -1,1 +1,0 @@
-document.write('<sc' + 'ript src="http://static.51h5.com/js/api3rd.js?v=42"></scr' + 'ipt>');
